@@ -1,4 +1,4 @@
-package com.hyts.assemble.uuidkey.snowflake;
+package com.github.sniper.uuidkey.snowflake;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

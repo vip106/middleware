@@ -1,10 +1,10 @@
-package com.hyts.assemble.uuidkey.snowflake;
+package com.github.sniper.uuidkey.snowflake;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static com.hyts.assemble.uuidkey.snowflake.TimeUtil.tilNextMillis;
-import static com.hyts.assemble.uuidkey.snowflake.TimeUtil.timeGen;
+import static com.github.sniper.uuidkey.snowflake.TimeUtil.tilNextMillis;
+import static com.github.sniper.uuidkey.snowflake.TimeUtil.timeGen;
 
 
 /**

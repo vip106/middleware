@@ -9,6 +9,8 @@
         <module>www-platform-common</module>
         <module>www-authSecurity</module>
         <module>www-apiGateway</module>
+        <module>www-platform-uuidKey</module>
+        <module>www-platform-baidugen</module>
     </modules>
     <packaging>pom</packaging>
     <name>middleware</name>

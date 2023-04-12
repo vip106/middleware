@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.hyts.assemble.uuidkey.uidgen.mapper;
+package com.github.sniper.uuidkey.biduuidgen.mapper;
 
 
 import com.baidu.fsg.uid.worker.entity.WorkerNodeEntity;

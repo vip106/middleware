@@ -3,9 +3,10 @@ package com.github.sniper.uuidkey;
 import cn.hutool.core.net.NetUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.web.ServerProperties;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * @author Sniper_lw
@@ -13,9 +14,10 @@ import org.springframework.context.ApplicationContext;
  * @description TODO
  * @date 2023/4/12 10:14
  */
-@SpringBootApplication
+@Configuration
+@EnableAutoConfiguration
 @Slf4j
-public class UUIDKeyConfig {
+public class UuidKeyConfiguration {
 
     public static void main(String[] args) {
         ApplicationContext applicationContext = SpringApplication.run(UuidKeyConfiguration.class,args);

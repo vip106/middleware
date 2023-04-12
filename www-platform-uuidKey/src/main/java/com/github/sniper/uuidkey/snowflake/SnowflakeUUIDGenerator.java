@@ -13,11 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.hyts.assemble.uuidkey.snowflake;
+package com.github.sniper.uuidkey.snowflake;
 
-import com.hyts.assemble.uuidkey.base.UUIDGenerator;
+import com.github.sniper.uuidkey.base.UUIDGenerator;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
 import org.springframework.stereotype.Service;
 
 /**

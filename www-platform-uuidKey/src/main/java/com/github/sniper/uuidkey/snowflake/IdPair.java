@@ -1,4 +1,4 @@
-package com.hyts.assemble.uuidkey.snowflake;
+package com.github.sniper.uuidkey.snowflake;
 
 public class IdPair {
 	private long smallestId;

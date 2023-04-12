@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.hyts.assemble.uuidkey.uidgen;
+package com.github.sniper.uuidkey.biduuidgen;
 
 import com.baidu.fsg.uid.utils.DockerUtils;
 import com.baidu.fsg.uid.utils.NetUtils;
 import com.baidu.fsg.uid.worker.WorkerIdAssigner;
 import com.baidu.fsg.uid.worker.WorkerNodeType;
 import com.baidu.fsg.uid.worker.entity.WorkerNodeEntity;
-import com.hyts.assemble.uuidkey.uidgen.mapper.WorkerNodeMapper;
+import com.github.sniper.uuidkey.biduuidgen.mapper.WorkerNodeMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.math.RandomUtils;
 import org.springframework.beans.factory.annotation.Autowired;

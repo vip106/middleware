@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.hyts.assemble.uuidkey.uidgen;
+package com.github.sniper.uuidkey.biduuidgen;
 
 import com.baidu.fsg.uid.impl.CachedUidGenerator;
 import com.baidu.fsg.uid.worker.WorkerIdAssigner;

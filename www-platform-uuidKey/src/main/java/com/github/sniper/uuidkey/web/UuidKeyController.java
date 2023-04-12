@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.hyts.assemble.uuidkey.web;
+package com.github.sniper.uuidkey.web;
 
-import com.hyts.assemble.common.model.http.ResultResponse;
-import com.hyts.assemble.uuidkey.base.UUIDGenerator;
-import com.hyts.assemble.uuidkey.hutool.HutoolUUIDGenerator;
+import com.github.sniper.common.model.http.ResultResponse;
+import com.github.sniper.uuidkey.base.UUIDGenerator;
+import com.github.sniper.uuidkey.hutool.HutoolUUIDGenerator;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
